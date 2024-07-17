@@ -13,7 +13,8 @@ body {
     padding: 0;
 
 }
-.mobile-responsive{
+
+.mobile-responsive {
     display: none;
 }
 
@@ -57,7 +58,7 @@ body {
 }
 
 .banner-section {
-    
+
     max-width: 1600px;
     display: flex;
     justify-content: space-between;
@@ -77,7 +78,7 @@ body {
     font-weight: 700;
     padding-bottom: 20px;
 
-    
+
 }
 
 .banner-description {
@@ -103,55 +104,118 @@ body {
     border: 2px dashed #b3adad;
     text-align: center;
 }
-.banner-img img{
-    
-}
 
-.sponsor{
-    border: 2px solid black;
+.banner-img img {}
+
+.main-container {
     width: 80%;
     margin: 70px auto;
 }
-.sponsor-company{
 
+.sponsor-company {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding: 50px;
 }
+
+/*Popular-Collection section starts here*/
+.all-collection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.popular-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Popular-Collection-title {
+    color: rgb(58, 58, 58);
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px;
+}
+
+.Popular-Collection-item {
+
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 15px ;
+}
+
+.device-name {
+    color: rgb(24, 25, 31);
+    font-size: 28px;
+    font-weight: 500;
+    padding: 15px 0;
+}
+
+.price {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+
+.description {
+    color: rgb(120, 120, 133);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
 /*Responsive for small devices*/
 @media screen and (max-width: 576px) {
-    .mobile-responsive{
+    .mobile-responsive {
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
-    .nav-container{
+
+    .nav-container {
         display: none;
     }
-    .banner-section{
+
+    .banner-section {
         flex-direction: column-reverse;
     }
+
     .banner-content {
-       text-align: center;
+        text-align: center;
         width: 100%;
     }
+
     .banner-title {
         color: rgb(58, 58, 58);
         font-size: 2rem;
         font-weight: 700;
         padding-bottom: 20px;
     }
-    .banner-img{
-       width: 80%;
-       margin: 15px auto;
+
+    .banner-img {
+        width: 80%;
+        margin: 15px auto;
     }
-    .banner-img img{
+
+    .banner-img img {
         width: 100%;
     }
-    .sponsor-company{
+
+    .sponsor-company {
         display: flex;
         justify-content: center;
         gap: 10px;
         flex-wrap: wrap;
+    }
+    .all-collection {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
     }
 }
