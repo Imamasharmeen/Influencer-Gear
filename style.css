@@ -217,8 +217,35 @@ body {
 }
 
 
+.footer-content { 
+    background: #0A0826;
+    padding: 100px;
+    text-align: center;
 
+}
 
+.footer-text {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+small {
+    color: rgb(217, 219, 225);
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+footer span {
+    background: rgb(255, 255, 255);
+    margin-right: 18px;
+  
+    
+
+}
 
 /*Responsive for small devices*/
 
@@ -271,23 +298,40 @@ body {
         grid-template-columns: repeat(1, 1fr);
         gap: 30px;
     }
+
     .Featured-products {
         flex-direction: column-reverse;
         width: 90%;
-        
+
     }
+
     .Featured-products-text {
         margin: 0 auto;
         padding: 0;
         text-align: center;
 
     }
+
     .Featured-products-img {
         width: 100%;
         padding-top: 25px;
     }
+    .footer-text {
+        color: rgb(255, 255, 255);
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 700;
+        padding-bottom: 15px;
+    }
     
-    
-    
-    
+    small {
+        color: rgb(217, 219, 225);
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+    .footer-content { 
+        padding: 60px;
+    }
+
 }
