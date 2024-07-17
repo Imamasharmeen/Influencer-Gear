@@ -94,6 +94,10 @@ body {
     border-radius: 41px;
     background: rgb(224, 44, 109);
     border: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+
 }
 
 .banner-img {
@@ -143,7 +147,7 @@ body {
 
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 8px 8px 15px ;
+    box-shadow: 8px 8px 15px;
 }
 
 .device-name {
@@ -170,7 +174,55 @@ body {
     padding-top: 10px;
 }
 
+.Featured-products {
+    display: flex;
+    margin: 100px auto;
+}
+
+.Featured-products-img {
+    width: 50%;
+}
+
+.products-img {
+    width: 100%;
+}
+
+.Featured-products-text {
+    margin: 50px;
+    padding-left: 50px;
+}
+
+.Featured-products-title {
+    color: rgb(10, 8, 38);
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.Featured-products-description {
+    color: rgb(108, 108, 108);
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.Featured-products-button {
+    width: 155px;
+    height: 44px;
+    background: rgb(224, 44, 109);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+
+
+
+
+
 /*Responsive for small devices*/
+
+
 @media screen and (max-width: 576px) {
     .mobile-responsive {
         display: flex;
@@ -213,9 +265,29 @@ body {
         gap: 10px;
         flex-wrap: wrap;
     }
+
     .all-collection {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 30px;
     }
+    .Featured-products {
+        flex-direction: column-reverse;
+        width: 90%;
+        
+    }
+    .Featured-products-text {
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+
+    }
+    .Featured-products-img {
+        width: 100%;
+        padding-top: 25px;
+    }
+    
+    
+    
+    
 }
