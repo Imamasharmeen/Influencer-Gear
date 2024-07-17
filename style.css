@@ -1,0 +1,107 @@
+/*Font style*/
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/*Shared style starts here*/
+
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/*Shared style ends here*/
+/*Header section start here */
+
+.header-section {
+    border: 2px solid red;
+    max-width: 1920vw;
+
+}
+
+.nav-container {
+
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px auto;
+}
+
+.brand-name {
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+
+.nav-item {
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.banner-section {
+    
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+
+}
+
+.banner-content {}
+
+.banner-title {
+    color: rgb(58, 58, 58);
+    font-size: 4rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.banner-description {
+    color: rgb(58, 58, 58);
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.button {
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+    background: rgb(224, 44, 109);
+    border: none;
+}
+
+.banner-img {
+    background-image: url("./images/Circle\ design.svg");
+    border: 2px dashed #b3adad;
+}
+
+.sponsor{
+    border: 2px solid black;
+    width: 80%;
+    margin: 70px auto;
+}
+.sponsor-company{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
